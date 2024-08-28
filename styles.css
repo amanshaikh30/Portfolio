@@ -1,0 +1,108 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #e9ecef;
+    color: #343a40;
+}
+
+/* Header Styles */
+header {
+    background: #b86363;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.profile-photo {
+    border-radius: 75%;
+    width: 120px; /* Adjust the size as needed */
+    height: 120px; /* Adjust the size as needed */
+    margin-right: 20px; /* Space between photo and text */
+}
+
+/* Navigation Styles */
+nav {
+    background: #404e5c;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Section Styles */
+section {
+    padding: 20px;
+    margin: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Center the h2 element */
+section h2 {
+    margin-top: 0;
+    color: #60a4ed;
+    text-align: center; /* Center the heading */
+}
+
+/* Center the skills list */
+#skills ul {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    padding: 0;
+}
+
+#skills ul li {
+    margin: 0 15px; /* Space between list items */
+}
+
+#about p {
+    text-align: center;
+}
+
+#education ul {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    padding: 0;
+}
+
+#contact p {
+    text-align: center;
+}
+
+#certifications ul {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    padding: 0;
+}
+
+#certifications ul li {
+    margin: 0 15px; /* Space between list items */
+}
